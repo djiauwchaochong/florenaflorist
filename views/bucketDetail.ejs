@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .city {
+          background-color: red;
+          color: white;
+          border: 2px solid black;
+          margin: 20px;
+          padding: 20px;
+        }
+        </style>        
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <title>Florena's Florist</title>
+</head>
+<body style="background-color:black;">
+    <center>
+        <a target="_blank" href="https://www.instagram.com/florena.florist/"><h1 style="color:greenyellow;">Florena Florist</h1></a>
+        <h2 style="color:whitesmoke;">= Bucket Detail List =</h2><br><br>
+        <h3 style="color:whitesmoke;"><b><%= data.name %></b></h3>
+        <img src="<%= data.img %>"><br><br>
+        <h4 style="color:whitesmoke;"><b>Details:</b></h4>
+        <h4 style="color:whitesmoke;">Name: <%= data.name %></h4>
+        <h4 style="color:whitesmoke;">Description:</h4>
+        <div class="city">
+            <p><%= data.description %></p>
+        </div> 
+        <h4 style="color:whitesmoke;">Price: <%= data.convertPrice %></h4>
+        <h4 style="color:whitesmoke;">Service Cost: <%= data.Type.convertPrice %></h4>
+        <h4 style="color:whitesmoke;">Total Cost: <%= sumRp(data.Type.ongkos, data.price) %></h4>
+        <h4 style="color:whitesmoke;">Stock: <%= data.stock %></h4>
+        <% if(username == 'BONK') { %> <a class="btn btn-light" href="/bucket/restock/<%= data.id %>">Restock</a> <% } else { %>
+        <% if(isbuying == false && data.stock != 0 ) { %> <a class="btn btn-light" href="/bucket/buy/<%= data.id %>">Buy</a> <% }} %>
+        <a class="btn btn-light" href="/bucket">Back</a>
+    </center>
+</body>
+</html>

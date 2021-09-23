@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <title>Florena's Florist</title>
+</head>
+<body style="background-color:purple;">
+    <center>
+        <a target="_blank" href="https://www.instagram.com/florena.florist/"><h1 style="color:greenyellow;">Florena Florist</h1></a>
+        <h2 style="color:whitesmoke;">This is our user table ma'am !!</h2>
+        <h3 style="color:whitesmoke;">How can i do for you ??</h3><br>
+        <a href="/logout" class="btn btn-light">Logout</a> <a href="/bucket" class="btn btn-light">Bucket</a><br><br>
+        <a href="/admin/userlist" class="btn btn-warning">User List</a> <a href="/admin/transaction" class="btn btn-warning">Transaction</a> <a class="btn btn-warning" href="/admin/bucketEdit">Edit Bucket</a><br><br>
+        <table class="table table-success table-striped">
+            <thead>
+              <tr>
+                <th scope="col">Username</th>
+                <th scope="col">Name</th>
+                <th scope="col">Address</th>
+                <th scope="col">Phone</th>
+                <th scope="col">Gender</th>
+              </tr>
+            </thead>
+            <tbody>
+                <% for(var i = 0; i < data.length; i++) { %>
+                    <tr>
+                        <% if(data[i].username == 'BONK') { continue } %>
+                        <td><%= data[i].username %></td>
+                        <td><%= data[i].Detail.nameForger %></td>
+                        <td><%= data[i].Detail.address %></td>
+                        <td><%= data[i].Detail.phone %></td>
+                        <td><%= data[i].Detail.gender %></td>
+                    </tr>
+                <% } %>
+            </tbody>
+          </table>
+    </center>
+</body>
+</html>

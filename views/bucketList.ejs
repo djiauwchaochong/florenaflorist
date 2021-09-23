@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <title>Florena's Florist</title>
+</head>
+<body>
+    <center>
+        <a target="_blank" href="https://www.instagram.com/florena.florist/"><h1 style="color:greenyellow;">Florena Florist</h1></a>
+        <h2>= Bucket List =</h2><br>
+        <h5>- Hello <%= dataUser.username %>, welcome to our Gallery -</h5>
+        <a style="float: right" href="/logout" class="btn btn-dark">Logout</a><br><br>
+        <% if (username == 'BONK') { %>
+        <a class="btn btn-dark" href="/admin">Bonk's Mode</a><br><br>
+        <% } %>
+        <form>
+            <input class="btn btn-outline-dark" size="100" type="search" name="search"><br><br>
+            <input class="btn btn-dark" type="submit" value="Search">
+        </form><br><br>
+        <table class="table table-dark table-striped">
+            <thead>
+              <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Type</th>
+                <th scope="col">Action</th>
+              </tr>
+            </thead>
+            <tbody>
+                <% for(var i = 0; i < dataBucket.length; i++) { %>
+                    <tr>
+                        <td><%= dataBucket[i].name %></td>
+                        <td><%= dataBucket[i].Type.name %></td>
+                        <td><a href="/bucket/<%= dataBucket[i].id %>" class="btn btn-light">Details</a></td>
+                    </tr>
+                <% } %>
+            </tbody>
+          </table>
+    </center>
+</body>
+</html>
