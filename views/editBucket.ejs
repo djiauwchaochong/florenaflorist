@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        #wgtmsr{
+            width:250px;   
+        }
+        #wgtmsr option{
+            width:225px;   
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <title>Florena's Florist</title>
+</head>
+<body style="background-color:purple;">
+    <center>
+        <a target="_blank" href="https://www.instagram.com/florena.florist/"><h1 style="color:greenyellow;">Florena Florist</h1></a>
+        <h2 style="color:whitesmoke;">Edit Bucket</h2>
+        <h3 style="color:whitesmoke;">How can i do for you ??</h3><br>
+        <a href="/logout" class="btn btn-light">Logout</a> <a href="/bucket" class="btn btn-light">Bucket</a><br><br>
+        <a href="/admin/userlist" class="btn btn-warning">User List</a> <a href="/admin/transaction" class="btn btn-warning">Transaction</a> <a class="btn btn-warning" href="/admin/bucketEdit">Edit Bucket</a><br><br>
+        <form action="/admin/bucketEdit/edit/<%= data.id %>" method="POST">
+            <h4 style="color:whitesmoke;">Name: </h4>
+            <input value="<%= data.name %>" size="25" type="text" name="name"><br><br>
+            <h4 style="color:whitesmoke;">Price: </h4>
+            <input value="<%= data.price %>" size="25" type="number" name="price"><br><br>
+            <h4 style="color:whitesmoke;">Stock: </h4>
+            <input value="<%= data.stock %>" size="25" type="number" name="stock"><br><br>
+            <h4 style="color:whitesmoke;">ImageUrl: </h4>
+            <input value="<%= data.img %>" size="25" type="text" name="img"><br><br>
+            <h4 style="color:whitesmoke;">Description: </h4>
+            <textarea name="description" cols="80" rows="20"><%= data.description %>"</textarea><br><br>
+            <h4 style="color:whitesmoke;">Type: </h4>
+            <select id="wgtmsr" name="TypeId">
+                <option <% if (data.TypeId == 1) { %> selected <% } %> value="1">Flower</option>
+                <option <% if (data.TypeId == 2) { %> selected <% } %> value="2">Non Flower</option>
+            </select><br><br>
+            <input type="submit" class="btn btn-secondary">
+        </form>
+    </center>
+</body>
+</html>

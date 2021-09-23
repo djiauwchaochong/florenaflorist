@@ -1,0 +1,114 @@
+[
+  {
+    "name": "Pink Ferrero",
+    "price": 120000,
+    "stock": 5,
+    "description": "Nothing pleases the eye more than a beautiful bouquet of pink roses. This is the best gift that can be presented at the graduation ceremony of either your friend, best friend, or girlfriend. This bouquet consists of six pink roses, six chocolates and a teddy bear, elegantly wrapped in brown paper and decorated with pink ribbons, making this bouquet the perfect gift for your loved ones. Giving this is a way to say you care for loved one represented by a bouquet of elegant pink roses.",
+    "img": "https://i.ibb.co/5nV3XNY/Bunga1.jpg",
+    "TypeId": 1
+  },
+  {
+    "name": "The Pink White",
+    "price": 300000,
+    "stock": 5,
+    "description": "Treat your special one with this lovely bouquet and make them feel extra special. If you are looking for a stunning birthday gift, this is the best choice that you can gift to your loved ones. Take your relationship to the next level by sending this gift to the person whom you love. Elegantly wrapped in brown paper packaging and embellished with pink ribbon making this the perfect birthday gift. Pink roses have the power to cherish the bond and white roses have the power to please the mood of the receiver.",
+    "img": "https://i.ibb.co/S3cDpKt/Bunga2.jpg",
+    "TypeId": 1
+  },
+  {
+    "name": "Yellow Sky",
+    "price": 280000,
+    "stock": 5,
+    "description": "A bouquet of white roses is the perfect gift for your loved one. The bouquet combined of fifteen stalks of white roses decorated and little peacock flowers that wrapped in quality brown paper and a beautiful yellow ribbon make this the best gift to complement your special day. White roses are a symbol of sincerity so make your loved ones feel your sincerity by giving this gift.",
+    "img": "https://i.ibb.co/dtcF63M/Bunga3.jpg",
+    "TypeId": 1
+  },
+  {
+    "name": "The Blue Yell",
+    "price": 70000,
+    "stock": 5,
+    "description": "When the different colors of roses are combined create a marvelous bouquet of happiness and love. This arrangement is carefully made up of six blue roses, six yellow roses, white peacock flowers and a teddy bear in white paper packing. It's will impressive your beloved and this floral arrangement can be a beautiful gift that you can give on every special moment to your loved one.",
+    "img": "https://i.ibb.co/hcryZd3/Bunga4.jpg",
+    "TypeId": 1
+  },
+  {
+    "name": "The Grand",
+    "price": 600000,
+    "stock": 5,
+    "description": "This is an ultimate bouquet that you can order to delight your loved ones. Freshly cut blooms of red roses are wrapped elegantly in red paper packing along with ribbon bow. Gift this to your loved ones and see their heart filled with happiness. This beauty is suitable for occasions like birthday, valentine’s day, mother’s day, father’s day, anniversary and many more. Red roses are the epitome of love and care and hence you can send this beautiful bouquet to your loved ones to cherish the bond.",
+    "img": "https://i.ibb.co/CKgFPF0/Bunga5.jpg",
+    "TypeId": 1
+  },
+  {
+    "name": "Custom Blue",
+    "price": 90000,
+    "stock": 5,
+    "description": "These blue roses in white paper packing speak the language of timeless love and respect. A woozy array of deep robust color, the bouquet contains 3 blue roses wrapped in a white paper packing along with customized photo. It's an amazing bouquet that is perfect for birthday, anniversary, propose day, valentine day, date night or any other occasion. It's an impressive bouquet that is sure to win the heart of the receiver.",
+    "img": "https://i.ibb.co/1JP2fLH/Bunga6.jpg",
+    "TypeId": 1
+  },
+  {
+    "name": "Blue Eyes Money",
+    "price": 1200000,
+    "stock": 5,
+    "description": "A bouquet consisting of fifty thousand rupiah. this is an awesome gift for someone who deserves a heads up.  wrapped elegantly in blue paper packing along with ribbon bow, it's an impressive bouquet that is sure to win the heart of the receiver. This impressive bouquet suitable for occasions like anniversary, graduation ceremony and many more.",
+    "img": "https://i.ibb.co/5WyHgYg/Non-Bunga1.jpg",
+    "TypeId": 2
+  },
+  {
+    "name": "Teddy Olei",
+    "price": 100000,
+    "stock": 5,
+    "description": "This is an ultimate bouquet that you can order to delight your loved ones. The Slai olai and teddy bear are wrapped elegantly in blue paper packing along with ribbon bow. Gift this to your loved ones and see their heart filled with happiness. This beauty is suitable for occasions like for occasions like anniversary, graduation ceremony and many more.",
+    "img": "https://i.ibb.co/6y5MvQC/Non-Bunga2.jpg",
+    "TypeId": 2
+  },
+  {
+    "name": "Red Money",
+    "price": 550000,
+    "stock": 5,
+    "description": "A bouquet consists of One hundred thousand rupiah and little white flowers. this is an awesome gift for someone who deserves a heads up. wrapped elegantly in brown paper packing along with red ribbon bow, it's an impressive bouquet that is sure to win the heart of the receiver. This impressive bouquet suitable for occasions like anniversary, graduation ceremony and many more",
+    "img": "https://i.ibb.co/HqgTWXh/Non-Bunga3.jpg",
+    "TypeId": 2
+  },
+  {
+    "name": "The Chocolate Frenzy",
+    "price": 180000,
+    "stock": 5,
+    "description":"A bouquet combine chocolate snacks, it’s a unique and awesome gift for your friend, your best friend in their special day. Combine with little flower than wrapped elegantly in white paper packing along with blue ribbon that is sure to win the heart of the receiver. This impressive bouquet suitable for occasions like anniversary, graduation ceremony and many more.",
+    "img": "https://i.ibb.co/NVydtGp/Non-Bunga4.jpg",
+    "TypeId": 2
+  },
+  {
+    "name": "Chicken Fire",
+    "price": 175000,
+    "stock": 5,
+    "description":"A bouquet combined of Indomie, fried chicken, and little white flowers, it’s a unique and awesome gift for your friend, your best friend in their special day. Wrapped elegantly in brown paper packing along with yellow ribbon bow, it's an impressive bouquet that is sure to win the heart of the receiver. This impressive bouquet suitable for occasions like anniversary, graduation ceremony and many more.",
+    "img": "https://i.ibb.co/vY8DDf2/Non-Bunga5.jpg",
+    "TypeId": 2
+  },
+  {
+    "name": "The Normal Chocolate",
+    "price": 90000,
+    "stock": 5,
+    "description":"A bouquet combine chocolate snacks, it’s a unique and awesome gift for your friend, your best friend in their special day. Combine with blue balloon and little flower than wrapped elegantly in blue paper packing along with blue ribbon that is sure to win the heart of the receiver. This impressive bouquet suitable for occasions like anniversary, graduation ceremony and many more.",
+    "img": "https://i.ibb.co/yVs101g/Non-Bunga6.jpg",
+    "TypeId": 2
+  },
+  {
+    "name": "Teddy Ferrero",
+    "price": 150000,
+    "stock": 5,
+    "description":"A bouquet combine chocolate ball and teddy bear. It’s an beautiful and awesome gift This is the best gift that can be presented at the special day of either your friend, best friend, or girlfriend. Wrapped elegantly in brown paper packing along with yellow ribbon that is sure to win the heart of the receiver. This impressive bouquet suitable for occasions like anniversary, graduation ceremony and many more.",
+    "img": "https://i.ibb.co/wQVG65m/Non-Bunga7.jpg",
+    "TypeId": 2
+  },
+  {
+    "name": "Heath Bucket",
+    "price": 90000,
+    "stock": 5,
+    "description":"A bouquet combine vitamins, healthy drink and teddy bear. It’s an unique and awesome gift This is the best gift that can be presented at the special day of either your friend, best friend, or girlfriend in.  Wrapped elegantly in white paper packing along with blue ribbon that is sure to win the heart of the receiver. This impressive bouquet suitable for occasions like anniversary, graduation ceremony and many more, especial",
+    "img": "https://i.ibb.co/WK8hgnd/Non-Bunga8.jpg",
+    "TypeId": 2
+  }
+]
